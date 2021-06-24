@@ -41,4 +41,4 @@ async function setIntervalAndExecute(fn, t) {
     return(setInterval(fn, t));
 }
 
-setIntervalAndExecute(run, 5 * 60 * 1000)
+setIntervalAndExecute(run, 1 * 60 * 1000)
